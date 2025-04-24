@@ -8,7 +8,7 @@ import matplotlib.dates as mdates
 from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout  # GUI 구성 요소들
 from PyQt5.QtCore import QTimer  # 타이머: 주기적으로 작업 수행할 때 사용
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas  # PyQt 위에 matplotlib 그래프 출력용
-from test import Ui_MainWindow  # Qt Designer로 만든 UI를 파이썬으로 변환한 모듈 (test.ui → test.py)
+from test1 import Ui_MainWindow  # Qt Designer로 만든 UI를 파이썬으로 변환한 모듈 (test.ui → test.py)
 
 matplotlib.rc('font', family='Malgun Gothic')  # 한글 깨짐 방지 (Windows용)
 matplotlib.rcParams['axes.unicode_minus'] = False  # 마이너스 기호 깨짐 방지
